@@ -1,0 +1,87 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"970c0342cef09bc7"
+	},
+	"nodes":[
+		{"id":"970c0342cef09bc7","type":"group","ratio":1.7777777777777777,"x":-880,"y":-1720,"width":2564,"height":1515,"label":"Start Slide"},
+		{"id":"89fa9f95dd6e0398","type":"group","ratio":1.7777777777777777,"x":-200,"y":-1160,"width":1200,"height":675,"label":"New Slide"},
+		{"id":"5eac25c7d907e279","type":"file","file":"1. Comprendre le sujet/0_Presentation.md","x":120,"y":-1120,"width":400,"height":400,"color":"#1f0000"},
+		{"id":"589d5569318fa25a","type":"file","file":"1. Comprendre le sujet/02_Definition de la transition énergétique.md","x":-80,"y":-1640,"width":400,"height":400,"color":"5"},
+		{"id":"ae42afcf0794127f","type":"file","file":"1. Comprendre le sujet/01_introduction.md","x":-800,"y":-1600,"width":400,"height":400,"color":"1"},
+		{"id":"189aa0b4106188e5","type":"file","file":"1. Comprendre le sujet/03_Mix_Energetique_France.md","x":840,"y":-1640,"width":400,"height":400,"color":"#4414c8"},
+		{"id":"c73b36b4479fe470","type":"file","file":"2. Base de données des énergies/04_Donnees_Energies_Dataview.md","x":1000,"y":-1120,"width":400,"height":400,"color":"2"},
+		{"id":"35ec315ba2c30180","type":"file","file":"4. Analyse/06_Analyse_RStudio.md","x":600,"y":-640,"width":400,"height":400,"color":"6"},
+		{"id":"d0d528ef1c9e0725","type":"file","file":"5.Conclusion/08_Visualisation.md","x":-840,"y":-1040,"width":400,"height":400,"color":"#e5d843"},
+		{"id":"cd7da0b25920350f","type":"file","file":"4. Analyse/07_Enjeux.md","x":-320,"y":-680,"width":400,"height":400,"color":"3"}
+	],
+	"edges":[
+		{
+			"id":"8cf39091b1d59092",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ae42afcf0794127f",
+			"fromSide":"right",
+			"toNode":"589d5569318fa25a",
+			"toSide":"left"
+		},
+		{
+			"id":"e38257787de674a0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"589d5569318fa25a",
+			"fromSide":"right",
+			"toNode":"189aa0b4106188e5",
+			"toSide":"left"
+		},
+		{
+			"id":"309cf929bcac81cb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"189aa0b4106188e5",
+			"fromSide":"right",
+			"toNode":"c73b36b4479fe470",
+			"toSide":"right"
+		},
+		{
+			"id":"f7755156871b906a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c73b36b4479fe470",
+			"fromSide":"bottom",
+			"toNode":"35ec315ba2c30180",
+			"toSide":"right"
+		},
+		{
+			"id":"6a22d93d8c7b244f",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromNode":"35ec315ba2c30180",
+			"fromSide":"left",
+			"toNode":"cd7da0b25920350f",
+			"toSide":"right"
+		},
+		{
+			"id":"6d46b02902bbfd74",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"cd7da0b25920350f",
+			"fromSide":"left",
+			"toNode":"d0d528ef1c9e0725",
+			"toSide":"bottom"
+		},
+		{
+			"id":"2a9bc3b9f451ed28",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"5eac25c7d907e279",
+			"fromSide":"left",
+			"toNode":"ae42afcf0794127f",
+			"toSide":"bottom",
+			"color":"#1f0000"
+		}
+	]
+}
